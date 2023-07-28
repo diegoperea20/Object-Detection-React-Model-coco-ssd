@@ -1,0 +1,87 @@
+/* TuComponente.css */
+.dark-theme {
+  /* Estilos para el tema oscuro */
+  background-color: #333;
+  color: #fff;
+
+  /* Centrar los elementos hijos horizontalmente y verticalmente */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* Altura y ancho ocuparán todo el viewport */
+  height: 100%;
+  width: 100%;
+}
+
+.dark-theme h1 {
+  /* Cambio de fuente a Arial */
+  font-family: Arial, sans-serif;
+}
+
+.dark-theme video {
+  /* Estilos para el elemento video en el tema oscuro */
+  width: 50%;
+  height: 50%;
+}
+
+.dark-theme canvas {
+  /* Estilos para el elemento canvas en el tema oscuro */
+  display: none;
+}
+
+.dark-theme h2 {
+  /* Estilos para el elemento h2 en el tema oscuro */
+  font-family: Arial, sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.dark-theme img {
+  /* Estilos para las imágenes en el tema oscuro */
+  width: 50%;
+  height: 50%;
+  /* Centrar la imagen */
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark-theme button {
+  /* Estilos para los botones en el tema oscuro */
+  margin: 10px 0;
+  padding: 8px 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo para el botón de activar cámara */
+.dark-theme .activate-button {
+  background-color: green;
+  color: #fff;
+  border-radius: 8px;
+  width: auto;
+  
+}
+
+/* Estilo para el botón de desactivar cámara */
+.dark-theme .deactivate-button {
+  background-color: red;
+  color: #fff;
+  border-radius: 8px;
+  width: auto;
+
+}
+
+/* Estilo para el botón de seleccionar imagen */
+.dark-theme .select-image-button {
+  background-color: purple;
+  color: #fff;
+  border-radius: 8px;
+  width: auto;
+}
